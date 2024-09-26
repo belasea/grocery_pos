@@ -1,4 +1,4 @@
-# grocery_pos
+## pos_system
 pip install django
 
 django-admin startproject pos_system
