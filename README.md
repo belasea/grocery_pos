@@ -1,3 +1,4 @@
+
 <!-- ![ecommerce](https://github.com/jibon969/eCommerce/assets/21084550/477f146e-e1a5-4293-a365-15bcbc12a3dd) -->
 <img
 src='static/img/eCommerce.jpg'
@@ -54,13 +55,14 @@ How to create new project or run existing project
 <summary style="cursor:pointer">Solution</summary>
 
 ```py
+## pos_system
 pip install django
 
 django-admin startproject pos_system
 cd pos_system
 
+  
 python manage.py startapp sales 
-
 
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
@@ -166,3 +168,4 @@ python manage.py migrate app_name zero  # Rollback all migrations
 python manage.py migrate                # Apply migrations again
 ```
 </details>
+
