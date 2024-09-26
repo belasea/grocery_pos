@@ -20,13 +20,13 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('home.urls'))
 ]
 
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-
-admin.site.site_header = "Grocery POS Admin"
-admin.site.site_title = "Grocery POS Admin"
-admin.site.index_title = "Welcome to Grocery POS"
+admin.site.site_header = "POS System Admin"
+admin.site.site_title = "POS System Admin"
+admin.site.index_title = "Welcome to POS System"

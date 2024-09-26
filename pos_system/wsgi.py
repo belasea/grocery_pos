@@ -1,5 +1,5 @@
 """
-WSGI config for grocery_pos project.
+WSGI config for pos_system project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'grocery_pos.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pos_system.settings')
 
 application = get_wsgi_application()
