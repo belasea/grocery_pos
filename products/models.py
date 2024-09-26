@@ -26,8 +26,7 @@ class Products(models.Model):
 
     def __str__(self):
         return self.code + " - " + self.name
-
-
+    
 class Sales(models.Model):
     code = models.CharField(max_length=100)
     sub_total = models.FloatField(default=0)
